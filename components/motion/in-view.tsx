@@ -25,14 +25,14 @@ const REVEALS: Record<string, Play> = {
   },
   down: (el) =>
     run(el, [{ transform: "translate3d(0, -100px, 0)" }, { transform: "none" }], { duration: 800, easing: OUT_CUBIC }),
-  right: (el) =>
+  right: (el, delay) =>
     run(
       el,
       [
         { opacity: 0, transform: "translate3d(100px, 0, 0)" },
         { opacity: 1, transform: "none" },
       ],
-      { duration: 1000, easing: OUT_QUART },
+      { duration: 1000, delay, easing: OUT_QUART },
     ),
 };
 

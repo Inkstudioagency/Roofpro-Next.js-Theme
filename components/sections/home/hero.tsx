@@ -37,6 +37,7 @@ export function Hero() {
                     height={56}
                     className="hero-rating-avatar is-1"
                     data-reveal="right"
+                    data-delay="600"
                   />
                   <Image
                     src="/images/avatar-02_1avatar-02.png"
@@ -45,6 +46,7 @@ export function Hero() {
                     height={56}
                     className="hero-rating-avatar"
                     data-reveal="right"
+                    data-delay="650"
                   />
                   <Image
                     src="/images/avatar-03_1avatar-03.png"
@@ -53,9 +55,10 @@ export function Hero() {
                     height={56}
                     className="hero-rating-avatar"
                     data-reveal="right"
+                    data-delay="700"
                   />
                 </div>
-                <div data-reveal="right" className="hero-rating-info-block">
+                <div data-reveal="right" data-delay="800" className="hero-rating-info-block">
                   <div className="hero-rating-star-block">
                     <Image
                       src="/images/Star-Icon.svg"

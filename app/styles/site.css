@@ -2779,7 +2779,9 @@
   .nav-dropdown-content {
     padding-top: var(--spacing-xsm);
     background-color: #0000;
-    left: -253%;
+    /* centred under the "Pages" toggle */
+    left: 50%;
+    transform: translateX(-50%);
   }
 
   .nav-dropdown-icon {
@@ -3984,6 +3986,7 @@
     .nav-dropdown-content.is-open {
       z-index: 9;
       position: static;
+      transform: none;
     }
 
     .nav-dropdown-icon {
