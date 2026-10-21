@@ -1,0 +1,196 @@
+/* Structural styles for the navbar, dropdown and tabs (behaviour lives in React components). */
+@layer base {
+  /* ---- navbar ---- */
+  .nav {
+    position: relative;
+    z-index: 1000;
+  }
+
+  .nav-brand {
+    position: relative;
+    text-decoration: none;
+    color: #333;
+  }
+
+  .nav-menu {
+    position: relative;
+  }
+
+  .nav-link-base {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav-button {
+    position: relative;
+    padding: 18px;
+    font-size: 24px;
+    display: none;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+
+  /* same box as the original icon-font glyph; the button's visible icon is a background image */
+  .nav-menu-icon {
+    display: block;
+    width: 1em;
+    height: 1em;
+  }
+
+  /* collapsed (mobile/tablet) menu */
+  @media screen and (max-width: 991px) {
+    .nav .nav-menu {
+      display: none;
+    }
+    .nav .nav-button {
+      display: block;
+    }
+    .nav .nav-menu.is-open {
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      overflow: hidden;
+      min-width: 200px;
+      animation: nav-menu-open 0.4s ease;
+    }
+    .nav .nav-menu.is-open .nav-link-base {
+      display: block;
+    }
+    .nav .nav-menu.is-open .dropdown {
+      display: block;
+    }
+    .nav .nav-menu.is-open .dropdown-list.is-open {
+      position: static;
+    }
+  }
+
+  @keyframes nav-menu-open {
+    from {
+      clip-path: inset(0 0 100% 0);
+    }
+    to {
+      clip-path: inset(0 0 0 0);
+    }
+  }
+
+  /* ---- dropdown ---- */
+  .dropdown {
+    display: inline-block;
+    position: relative;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 900;
+  }
+
+  .dropdown-toggle,
+  .dropdown-link {
+    position: relative;
+    vertical-align: top;
+    text-decoration: none;
+    color: #222;
+    padding: 20px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: nowrap;
+  }
+
+  .dropdown-toggle {
+    user-select: none;
+    display: inline-block;
+    cursor: pointer;
+    padding-right: 40px;
+    /* reset <button> chrome */
+    background: none;
+    border: 0;
+    font: inherit;
+  }
+
+  .dropdown-list {
+    position: absolute;
+    display: none;
+    min-width: 100%;
+  }
+  .dropdown-list.is-open {
+    display: block;
+  }
+
+  .dropdown-link {
+    padding: 10px 20px;
+    display: block;
+  }
+
+  .dropdown-icon {
+    display: inline-flex;
+    width: 1em;
+    height: 1em;
+  }
+  .dropdown-icon svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* ---- tabs ---- */
+  .tabs {
+    position: relative;
+  }
+
+  .tab-menu {
+    position: relative;
+  }
+
+  .tab-link {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    padding: 9px 30px;
+    text-align: left;
+    cursor: pointer;
+    color: #222;
+    background-color: #ddd;
+    /* reset <button> chrome */
+    border: 0;
+    font: inherit;
+  }
+  .tab-link.is-current {
+    background-color: #c8c8c8;
+  }
+  .tab-link:focus {
+    outline: 0;
+  }
+  .tab-link:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  .tab-content {
+    position: relative;
+    display: block;
+    overflow: hidden;
+  }
+
+  .tab-pane {
+    position: relative;
+    display: none;
+  }
+  .tab-pane.is-active {
+    display: block;
+  }
+
+  @media screen and (max-width: 479px) {
+    .tab-link {
+      display: block;
+    }
+  }
+}

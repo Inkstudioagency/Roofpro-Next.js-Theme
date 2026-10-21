@@ -1,0 +1,50 @@
+/* Accessibility refinements layered on top of the original design. */
+@layer components {
+  /* visible keyboard focus for custom controls (slider arrows, pressable rows) */
+  .slider-arrow:focus-visible,
+  [role="button"]:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+  .section_key-benefit [role="button"]:focus-visible,
+  .slider-arrow:focus-visible {
+    outline-color: currentColor;
+  }
+
+  /* 80% white on the brand blue is ~3.9:1; full white meets WCAG AA (~4.9:1) */
+  .section_key-benefit .text-color-white._80,
+  .section_cta-two .text-color-white._80 {
+    color: var(--color-white);
+  }
+
+  /*
+   * Failsafe: if JavaScript breaks after the `js` class is set (failed chunk, hydration error),
+   * reveal targets still appear after 3s instead of staying invisible. in-view.tsx sets
+   * data-motion="ready" on <html> as soon as it runs, which switches this off.
+   */
+  html.js:not([data-motion="ready"]) [data-reveal] {
+    animation: reveal-failsafe 0s 3s forwards;
+  }
+  @keyframes reveal-failsafe {
+    to {
+      opacity: 1;
+      filter: none;
+      transform: none;
+    }
+  }
+
+  /* the open mobile menu fills the screen; dvh avoids clipping behind mobile browser toolbars */
+  @media screen and (max-width: 991px) {
+    .nav-link-block {
+      height: 100dvh;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    [data-collapse],
+    .faq-dropdown-block,
+    .service-item-content-block {
+      transition: none;
+    }
+  }
+}

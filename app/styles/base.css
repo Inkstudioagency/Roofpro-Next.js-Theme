@@ -1,0 +1,345 @@
+/* Element defaults and layout primitives the RoofPro design is built on. */
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100%;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+  }
+
+  img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    /* next/image adds width/height attributes; the design sizes images from their intrinsic
+       (srcset/sizes) dimensions instead, so ignore the attribute hints unless CSS sets a size */
+    width: auto;
+    height: auto;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 38px;
+    line-height: 44px;
+    margin-top: 20px;
+  }
+  h2 {
+    font-size: 32px;
+    line-height: 36px;
+    margin-top: 20px;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 10px;
+  }
+  h5 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+  }
+  h6 {
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 10px;
+  }
+
+  p {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  blockquote {
+    margin: 0 0 10px 0;
+    padding: 10px 20px;
+    border-left: 5px solid #e2e2e2;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  figure {
+    margin: 0 0 10px;
+  }
+
+  figcaption {
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  ul,
+  ol {
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-left: 40px;
+  }
+
+  fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+  button,
+  [type="button"],
+  [type="reset"] {
+    border: 0;
+    cursor: pointer;
+    -webkit-appearance: button;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* ---- primitives ---- */
+  .container-main,
+  .container-large {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .link-block {
+    max-width: 100%;
+    display: inline-block;
+  }
+
+  /* lets a <button> take over a div's styling (accordion headers, tab links, ...) */
+  .button-reset {
+    appearance: none;
+    background: none;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
+    text-align: inherit;
+    text-transform: inherit;
+    letter-spacing: inherit;
+    cursor: pointer;
+  }
+  .button-reset:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+
+  .button-base {
+    display: inline-block;
+    padding: 9px 15px;
+    background-color: #3898ec;
+    color: white;
+    border: 0;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 0;
+    -webkit-appearance: button;
+  }
+
+  .form-block {
+    margin: 0 0 15px;
+  }
+
+  .form-success {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    background-color: #ddd;
+  }
+
+  .form-error {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffdede;
+  }
+
+  .form-input {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+  }
+  .form-input::placeholder {
+    color: #999;
+  }
+  .form-input:focus {
+    border-color: #3898ec;
+    outline: 0;
+  }
+  textarea.form-input {
+    height: auto;
+  }
+  .form-select {
+    background-color: #f3f3f3;
+  }
+
+  .rich-text::before,
+  .rich-text::after {
+    content: " ";
+    display: table;
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .rich-text::after {
+    clear: both;
+  }
+  .rich-text ol,
+  .rich-text ul {
+    overflow: hidden;
+  }
+  .rich-text figure {
+    position: relative;
+    max-width: 100%;
+    display: table;
+  }
+  .rich-text figure img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ---- slider (see components/ui/slider.tsx) ---- */
+  .slider {
+    position: relative;
+    height: 300px;
+    text-align: center;
+    background: #ddd;
+    clear: both;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .slider-mask {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    height: 100%;
+    white-space: nowrap;
+  }
+
+  .slide {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    white-space: normal;
+    text-align: left;
+  }
+
+  .slider-arrow {
+    position: absolute;
+    width: 80px;
+    inset: 0;
+    margin: auto;
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+    font-size: 40px;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+  }
+  .slider-arrow:focus {
+    outline: 0;
+  }
+  .slider-arrow-left {
+    z-index: 3;
+    right: auto;
+  }
+  .slider-arrow-right {
+    z-index: 4;
+    left: auto;
+  }
+
+  .slider-icon-left,
+  .slider-icon-right {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 1em;
+    height: 1em;
+    display: flex;
+  }
+  .slider-icon-left svg,
+  .slider-icon-right svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .slider-nav {
+    position: absolute;
+    z-index: 2;
+    inset: auto 0 0;
+    margin: auto;
+    padding-top: 10px;
+    height: 40px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .slider-dot {
+    position: relative;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-color: rgb(255 255 255 / 0.4);
+    cursor: pointer;
+    margin: 0 3px 0.5em;
+    border-radius: 100%;
+    transition:
+      background-color 100ms,
+      color 100ms;
+  }
+  .slider-dot.is-active {
+    background-color: #fff;
+  }
+
+  .empty-state {
+    padding: 10px;
+    background-color: #ddd;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    border: 0;
+  }
+}

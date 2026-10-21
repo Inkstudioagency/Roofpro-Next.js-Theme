@@ -1,0 +1,958 @@
+[
+  {
+    "id": 2,
+    "documentId": "wenulpqyr7gfe69qfyjb7tn6",
+    "title": "Commercial Roofing",
+    "slug": "commercial-roofing",
+    "order": 1,
+    "description": "Our industrial solutions prioritize safety and structural integrity, using high-performance materials designed for longevity in demanding environments.",
+    "overview": "Our residential roofing services are designed to protect your most valuable asset—your home. With decades of experience and a commitment to quality, we provide comprehensive roofing solutions that enhance both the beauty and durability of your property. From modern new builds to heritage home restorations, we deliver exceptional results tailored to your specific needs.",
+    "offerSummary": "Comprehensive roofing solutions that combine cutting-edge technology with traditional craftsmanship",
+    "benefitSummary": "Partnering with us means access to premium craftsmanship and unmatched expertise",
+    "icon": {
+      "id": 1,
+      "documentId": "w71l5gtd35xukqgrzdl7lwv4",
+      "url": "/cms/service-icon-3.svg",
+      "alternativeText": null,
+      "width": 24,
+      "height": 24,
+      "mime": "image/svg+xml"
+    },
+    "hoverIcon": {
+      "id": 2,
+      "documentId": "o56xmtwgek2nwvb3uvpzfqkl",
+      "url": "/cms/service-icon-2.svg",
+      "alternativeText": null,
+      "width": 24,
+      "height": 24,
+      "mime": "image/svg+xml"
+    },
+    "thumbnailOne": {
+      "id": 3,
+      "documentId": "fubln9cqce5zrbdfmnb3nr6l",
+      "url": "/cms/service-card-two-image-1.jpg",
+      "alternativeText": null,
+      "width": 350,
+      "height": 413,
+      "mime": "image/jpeg"
+    },
+    "thumbnailTwo": {
+      "id": 4,
+      "documentId": "khmo8byl4trmmu60889f4apl",
+      "url": "/cms/service-card-two-image-2.jpg",
+      "alternativeText": null,
+      "width": 350,
+      "height": 344,
+      "mime": "image/jpeg"
+    },
+    "mainImage": {
+      "id": 5,
+      "documentId": "evinechpzdq7jcppmrpih0nn",
+      "url": "/cms/service-main-image-2.jpg",
+      "alternativeText": null,
+      "width": 1440,
+      "height": 588,
+      "mime": "image/jpeg"
+    },
+    "overviewImages": [
+      {
+        "id": 6,
+        "documentId": "gfthvzykqnz6xfl31sw5r05l",
+        "url": "/cms/service-details-image-1.jpg",
+        "alternativeText": null,
+        "width": 423,
+        "height": 267,
+        "mime": "image/jpeg"
+      },
+      {
+        "id": 7,
+        "documentId": "o8k7aqq1yo3q0p9xhd9kyj8j",
+        "url": "/cms/service-details-image-2.jpg",
+        "alternativeText": null,
+        "width": 249,
+        "height": 232,
+        "mime": "image/jpeg"
+      },
+      {
+        "id": 8,
+        "documentId": "uiutogc1r0visj3m824j9qxg",
+        "url": "/cms/service-details-image-3.jpg",
+        "alternativeText": null,
+        "width": 369,
+        "height": 401,
+        "mime": "image/jpeg"
+      },
+      {
+        "id": 9,
+        "documentId": "se0h0edldhx4phwozmql0fxt",
+        "url": "/cms/service-details-image-4.jpg",
+        "alternativeText": null,
+        "width": 303,
+        "height": 308,
+        "mime": "image/jpeg"
+      }
+    ],
+    "benefits": [
+      {
+        "id": 7,
+        "text": "Increase property value curb appeal"
+      },
+      {
+        "id": 8,
+        "text": "Custom designs to match your vision"
+      },
+      {
+        "id": 9,
+        "text": "Extended warranty coverage"
+      },
+      {
+        "id": 10,
+        "text": "Licensed and insured professionals"
+      },
+      {
+        "id": 11,
+        "text": "Quality materials from trusted brands"
+      },
+      {
+        "id": 12,
+        "text": "Competitive pricing"
+      }
+    ],
+    "offers": [
+      {
+        "id": 10,
+        "text": "New roof installations for all home styles",
+        "icon": {
+          "id": 10,
+          "documentId": "vmx4ghf3fxosv3cq2rjzi1r7",
+          "url": "/cms/service-offer-icon-1.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 11,
+        "text": "Roof repairs and leak detection",
+        "icon": {
+          "id": 11,
+          "documentId": "z9kuaz1gv9ias65sbusu6zn9",
+          "url": "/cms/service-offer-icon-2.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 12,
+        "text": "Complete roof replacements",
+        "icon": {
+          "id": 12,
+          "documentId": "dnqrnzu4ajhq37lp4dcymtgu",
+          "url": "/cms/service-offer-icon-3.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 13,
+        "text": "Colorbond and metal roofing",
+        "icon": {
+          "id": 13,
+          "documentId": "a0jccn50tje8pxyviqhy3ngu",
+          "url": "/cms/service-offer-icon-4.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 14,
+        "text": "Tile and slate roofing",
+        "icon": {
+          "id": 14,
+          "documentId": "a4lt37vkyyfnj0p9v8xpdn3o",
+          "url": "/cms/service-offer-icon-5.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 15,
+        "text": "Gutter installation and replacement",
+        "icon": {
+          "id": 15,
+          "documentId": "z4zj64eg5wu8clgnd06477xk",
+          "url": "/cms/service-offer-icon-6.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 16,
+        "text": "Roof ventilation systems",
+        "icon": {
+          "id": 16,
+          "documentId": "j77uccgxdh63yt0zzp4jvxuv",
+          "url": "/cms/service-offer-icon-7.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 17,
+        "text": "Skylight installation",
+        "icon": {
+          "id": 17,
+          "documentId": "pc7vlxzlpyn4wixoozit8flp",
+          "url": "/cms/service-offer-icon-9.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 18,
+        "text": "Skylight installation",
+        "icon": {
+          "id": 18,
+          "documentId": "p9jb6f92q6inm87bt25w4cvh",
+          "url": "/cms/frame.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "documentId": "glhqyhfc27ifpwlx63eetqrv",
+    "title": "Industrial Roofing",
+    "slug": "industrial-roofing",
+    "order": 2,
+    "description": "We provide comprehensive flat and sloped roofing systems for office buildings, warehouses, and commercial complexes with minimal business interruption.",
+    "overview": "Our residential roofing services are designed to protect your most valuable asset—your home. With decades of experience and a commitment to quality, we provide comprehensive roofing solutions that enhance both the beauty and durability of your property. From modern new builds to heritage home restorations, we deliver exceptional results tailored to your specific needs.",
+    "offerSummary": "Comprehensive roofing solutions that combine cutting-edge technology with traditional craftsmanship",
+    "benefitSummary": "Partnering with us means access to premium craftsmanship and unmatched expertise",
+    "icon": {
+      "id": 19,
+      "documentId": "dkztyq6qf41kpals8cpx8as7",
+      "url": "/cms/service-icon-5.svg",
+      "alternativeText": null,
+      "width": 24,
+      "height": 24,
+      "mime": "image/svg+xml"
+    },
+    "hoverIcon": {
+      "id": 20,
+      "documentId": "x87jubtx75yxeu4mjamabw44",
+      "url": "/cms/service-icon-4.svg",
+      "alternativeText": null,
+      "width": 24,
+      "height": 24,
+      "mime": "image/svg+xml"
+    },
+    "thumbnailOne": {
+      "id": 21,
+      "documentId": "ld3ni6v8e6w07fmtbe2v2sug",
+      "url": "/cms/service-card-three-image-1.jpg",
+      "alternativeText": null,
+      "width": 350,
+      "height": 413,
+      "mime": "image/jpeg"
+    },
+    "thumbnailTwo": {
+      "id": 22,
+      "documentId": "lnasahdtj6l5vp0lb5cp9bw5",
+      "url": "/cms/service-card-three-image-2.jpg",
+      "alternativeText": null,
+      "width": 350,
+      "height": 344,
+      "mime": "image/jpeg"
+    },
+    "mainImage": {
+      "id": 23,
+      "documentId": "p970qc2z5dvx24dp5u6nhao4",
+      "url": "/cms/service-main-image-3.jpg",
+      "alternativeText": null,
+      "width": 1440,
+      "height": 588,
+      "mime": "image/jpeg"
+    },
+    "overviewImages": [
+      {
+        "id": 6,
+        "documentId": "gfthvzykqnz6xfl31sw5r05l",
+        "url": "/cms/service-details-image-1.jpg",
+        "alternativeText": null,
+        "width": 423,
+        "height": 267,
+        "mime": "image/jpeg"
+      },
+      {
+        "id": 7,
+        "documentId": "o8k7aqq1yo3q0p9xhd9kyj8j",
+        "url": "/cms/service-details-image-2.jpg",
+        "alternativeText": null,
+        "width": 249,
+        "height": 232,
+        "mime": "image/jpeg"
+      },
+      {
+        "id": 8,
+        "documentId": "uiutogc1r0visj3m824j9qxg",
+        "url": "/cms/service-details-image-3.jpg",
+        "alternativeText": null,
+        "width": 369,
+        "height": 401,
+        "mime": "image/jpeg"
+      },
+      {
+        "id": 9,
+        "documentId": "se0h0edldhx4phwozmql0fxt",
+        "url": "/cms/service-details-image-4.jpg",
+        "alternativeText": null,
+        "width": 303,
+        "height": 308,
+        "mime": "image/jpeg"
+      }
+    ],
+    "benefits": [
+      {
+        "id": 19,
+        "text": "Increase property value curb appeal"
+      },
+      {
+        "id": 20,
+        "text": "Custom designs to match your vision"
+      },
+      {
+        "id": 21,
+        "text": "Extended warranty coverage"
+      },
+      {
+        "id": 22,
+        "text": "Licensed and insured professionals"
+      },
+      {
+        "id": 23,
+        "text": "Quality materials from trusted brands"
+      },
+      {
+        "id": 24,
+        "text": "Competitive pricing"
+      }
+    ],
+    "offers": [
+      {
+        "id": 28,
+        "text": "New roof installations for all home styles",
+        "icon": {
+          "id": 10,
+          "documentId": "vmx4ghf3fxosv3cq2rjzi1r7",
+          "url": "/cms/service-offer-icon-1.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 29,
+        "text": "Roof repairs and leak detection",
+        "icon": {
+          "id": 11,
+          "documentId": "z9kuaz1gv9ias65sbusu6zn9",
+          "url": "/cms/service-offer-icon-2.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 30,
+        "text": "Complete roof replacements",
+        "icon": {
+          "id": 12,
+          "documentId": "dnqrnzu4ajhq37lp4dcymtgu",
+          "url": "/cms/service-offer-icon-3.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 31,
+        "text": "Colorbond and metal roofing",
+        "icon": {
+          "id": 13,
+          "documentId": "a0jccn50tje8pxyviqhy3ngu",
+          "url": "/cms/service-offer-icon-4.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 32,
+        "text": "Tile and slate roofing",
+        "icon": {
+          "id": 14,
+          "documentId": "a4lt37vkyyfnj0p9v8xpdn3o",
+          "url": "/cms/service-offer-icon-5.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 33,
+        "text": "Gutter installation and replacement",
+        "icon": {
+          "id": 15,
+          "documentId": "z4zj64eg5wu8clgnd06477xk",
+          "url": "/cms/service-offer-icon-6.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 34,
+        "text": "Roof ventilation systems",
+        "icon": {
+          "id": 16,
+          "documentId": "j77uccgxdh63yt0zzp4jvxuv",
+          "url": "/cms/service-offer-icon-7.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 35,
+        "text": "Skylight installation",
+        "icon": {
+          "id": 17,
+          "documentId": "pc7vlxzlpyn4wixoozit8flp",
+          "url": "/cms/service-offer-icon-9.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 36,
+        "text": "Skylight installation",
+        "icon": {
+          "id": 18,
+          "documentId": "p9jb6f92q6inm87bt25w4cvh",
+          "url": "/cms/frame.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "documentId": "dhsig7vovh7of1etkf8bcc9m",
+    "title": "Residential Roofing",
+    "slug": "residential-roofing",
+    "order": 3,
+    "description": "Our roofing services are designed to deliver durable, long-lasting protection with minimal hassle. From inspections to installations.",
+    "overview": "Our residential roofing services are designed to protect your most valuable asset—your home. With decades of experience and a commitment to quality, we provide comprehensive roofing solutions that enhance both the beauty and durability of your property. From modern new builds to heritage home restorations, we deliver exceptional results tailored to your specific needs.",
+    "offerSummary": "Comprehensive roofing solutions that combine cutting-edge technology with traditional craftsmanship",
+    "benefitSummary": "Partnering with us means access to premium craftsmanship and unmatched expertise",
+    "icon": {
+      "id": 24,
+      "documentId": "yvgqq4myku42izhb2jbpjzl8",
+      "url": "/cms/service-icon-1.svg",
+      "alternativeText": null,
+      "width": 24,
+      "height": 24,
+      "mime": "image/svg+xml"
+    },
+    "hoverIcon": {
+      "id": 25,
+      "documentId": "sooh32ow27t2yyuyfg7tovyt",
+      "url": "/cms/service-icon-8.svg",
+      "alternativeText": null,
+      "width": 24,
+      "height": 24,
+      "mime": "image/svg+xml"
+    },
+    "thumbnailOne": {
+      "id": 26,
+      "documentId": "acxz2p9z2g5r0ylpt162ne2o",
+      "url": "/cms/service-card-one-image-1.jpg",
+      "alternativeText": null,
+      "width": 350,
+      "height": 413,
+      "mime": "image/jpeg"
+    },
+    "thumbnailTwo": {
+      "id": 27,
+      "documentId": "jp0rlqbyeglvzvw9pjn9ae1x",
+      "url": "/cms/container.png",
+      "alternativeText": null,
+      "width": 350,
+      "height": 344,
+      "mime": "image/png"
+    },
+    "mainImage": {
+      "id": 28,
+      "documentId": "deqm2zrrpkj7e70el1s4qhyz",
+      "url": "/cms/frame-6.jpg",
+      "alternativeText": null,
+      "width": 1440,
+      "height": 588,
+      "mime": "image/jpeg"
+    },
+    "overviewImages": [
+      {
+        "id": 6,
+        "documentId": "gfthvzykqnz6xfl31sw5r05l",
+        "url": "/cms/service-details-image-1.jpg",
+        "alternativeText": null,
+        "width": 423,
+        "height": 267,
+        "mime": "image/jpeg"
+      },
+      {
+        "id": 7,
+        "documentId": "o8k7aqq1yo3q0p9xhd9kyj8j",
+        "url": "/cms/service-details-image-2.jpg",
+        "alternativeText": null,
+        "width": 249,
+        "height": 232,
+        "mime": "image/jpeg"
+      },
+      {
+        "id": 8,
+        "documentId": "uiutogc1r0visj3m824j9qxg",
+        "url": "/cms/service-details-image-3.jpg",
+        "alternativeText": null,
+        "width": 369,
+        "height": 401,
+        "mime": "image/jpeg"
+      },
+      {
+        "id": 9,
+        "documentId": "se0h0edldhx4phwozmql0fxt",
+        "url": "/cms/service-details-image-4.jpg",
+        "alternativeText": null,
+        "width": 303,
+        "height": 308,
+        "mime": "image/jpeg"
+      }
+    ],
+    "benefits": [
+      {
+        "id": 31,
+        "text": "Increase property value curb appeal"
+      },
+      {
+        "id": 32,
+        "text": "Custom designs to match your vision"
+      },
+      {
+        "id": 33,
+        "text": "Extended warranty coverage"
+      },
+      {
+        "id": 34,
+        "text": "Licensed and insured professionals"
+      },
+      {
+        "id": 35,
+        "text": "Quality materials from trusted brands"
+      },
+      {
+        "id": 36,
+        "text": "Competitive pricing"
+      }
+    ],
+    "offers": [
+      {
+        "id": 46,
+        "text": "New roof installations for all home styles",
+        "icon": {
+          "id": 10,
+          "documentId": "vmx4ghf3fxosv3cq2rjzi1r7",
+          "url": "/cms/service-offer-icon-1.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 47,
+        "text": "Roof repairs and leak detection",
+        "icon": {
+          "id": 11,
+          "documentId": "z9kuaz1gv9ias65sbusu6zn9",
+          "url": "/cms/service-offer-icon-2.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 48,
+        "text": "Complete roof replacements",
+        "icon": {
+          "id": 12,
+          "documentId": "dnqrnzu4ajhq37lp4dcymtgu",
+          "url": "/cms/service-offer-icon-3.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 49,
+        "text": "Colorbond and metal roofing",
+        "icon": {
+          "id": 13,
+          "documentId": "a0jccn50tje8pxyviqhy3ngu",
+          "url": "/cms/service-offer-icon-4.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 50,
+        "text": "Tile and slate roofing",
+        "icon": {
+          "id": 14,
+          "documentId": "a4lt37vkyyfnj0p9v8xpdn3o",
+          "url": "/cms/service-offer-icon-5.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 51,
+        "text": "Gutter installation and replacement",
+        "icon": {
+          "id": 15,
+          "documentId": "z4zj64eg5wu8clgnd06477xk",
+          "url": "/cms/service-offer-icon-6.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 52,
+        "text": "Roof ventilation systems",
+        "icon": {
+          "id": 16,
+          "documentId": "j77uccgxdh63yt0zzp4jvxuv",
+          "url": "/cms/service-offer-icon-7.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 53,
+        "text": "Skylight installation",
+        "icon": {
+          "id": 17,
+          "documentId": "pc7vlxzlpyn4wixoozit8flp",
+          "url": "/cms/service-offer-icon-9.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 54,
+        "text": "Skylight installation",
+        "icon": {
+          "id": 18,
+          "documentId": "p9jb6f92q6inm87bt25w4cvh",
+          "url": "/cms/frame.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "documentId": "k2e5113tu8bnhlsimvqjut7t",
+    "title": "Retail Roofing",
+    "slug": "retail-roofing",
+    "order": 4,
+    "description": "We balance aesthetics with durability, providing roofing systems that protect your inventory and customers while maintaining your building's curb appeal.",
+    "overview": "Our residential roofing services are designed to protect your most valuable asset—your home. With decades of experience and a commitment to quality, we provide comprehensive roofing solutions that enhance both the beauty and durability of your property. From modern new builds to heritage home restorations, we deliver exceptional results tailored to your specific needs.",
+    "offerSummary": "Comprehensive roofing solutions that combine cutting-edge technology with traditional craftsmanship",
+    "benefitSummary": "Partnering with us means access to premium craftsmanship and unmatched expertise",
+    "icon": {
+      "id": 29,
+      "documentId": "e2auskmfx1khf6dag8dbqno2",
+      "url": "/cms/service-icon-7.svg",
+      "alternativeText": null,
+      "width": 24,
+      "height": 24,
+      "mime": "image/svg+xml"
+    },
+    "hoverIcon": {
+      "id": 30,
+      "documentId": "c2r0ihyaeoa0oz9ulw2cxlhj",
+      "url": "/cms/service-icon-6.svg",
+      "alternativeText": null,
+      "width": 24,
+      "height": 24,
+      "mime": "image/svg+xml"
+    },
+    "thumbnailOne": {
+      "id": 26,
+      "documentId": "acxz2p9z2g5r0ylpt162ne2o",
+      "url": "/cms/service-card-one-image-1.jpg",
+      "alternativeText": null,
+      "width": 350,
+      "height": 413,
+      "mime": "image/jpeg"
+    },
+    "thumbnailTwo": {
+      "id": 31,
+      "documentId": "v3mjhx6geomrxgnszeme9uhv",
+      "url": "/cms/service-card-one-image-2.jpg",
+      "alternativeText": null,
+      "width": 350,
+      "height": 344,
+      "mime": "image/jpeg"
+    },
+    "mainImage": {
+      "id": 32,
+      "documentId": "urrccf7ql5pvx5go11i6bov3",
+      "url": "/cms/service-main-image-1.jpg",
+      "alternativeText": null,
+      "width": 1440,
+      "height": 588,
+      "mime": "image/jpeg"
+    },
+    "overviewImages": [
+      {
+        "id": 6,
+        "documentId": "gfthvzykqnz6xfl31sw5r05l",
+        "url": "/cms/service-details-image-1.jpg",
+        "alternativeText": null,
+        "width": 423,
+        "height": 267,
+        "mime": "image/jpeg"
+      },
+      {
+        "id": 7,
+        "documentId": "o8k7aqq1yo3q0p9xhd9kyj8j",
+        "url": "/cms/service-details-image-2.jpg",
+        "alternativeText": null,
+        "width": 249,
+        "height": 232,
+        "mime": "image/jpeg"
+      },
+      {
+        "id": 8,
+        "documentId": "uiutogc1r0visj3m824j9qxg",
+        "url": "/cms/service-details-image-3.jpg",
+        "alternativeText": null,
+        "width": 369,
+        "height": 401,
+        "mime": "image/jpeg"
+      },
+      {
+        "id": 9,
+        "documentId": "se0h0edldhx4phwozmql0fxt",
+        "url": "/cms/service-details-image-4.jpg",
+        "alternativeText": null,
+        "width": 303,
+        "height": 308,
+        "mime": "image/jpeg"
+      }
+    ],
+    "benefits": [
+      {
+        "id": 43,
+        "text": "Increase property value curb appeal"
+      },
+      {
+        "id": 44,
+        "text": "Custom designs to match your vision"
+      },
+      {
+        "id": 45,
+        "text": "Extended warranty coverage"
+      },
+      {
+        "id": 46,
+        "text": "Licensed and insured professionals"
+      },
+      {
+        "id": 47,
+        "text": "Quality materials from trusted brands"
+      },
+      {
+        "id": 48,
+        "text": "Competitive pricing"
+      }
+    ],
+    "offers": [
+      {
+        "id": 64,
+        "text": "New roof installations for all home styles",
+        "icon": {
+          "id": 10,
+          "documentId": "vmx4ghf3fxosv3cq2rjzi1r7",
+          "url": "/cms/service-offer-icon-1.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 65,
+        "text": "Roof repairs and leak detection",
+        "icon": {
+          "id": 11,
+          "documentId": "z9kuaz1gv9ias65sbusu6zn9",
+          "url": "/cms/service-offer-icon-2.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 66,
+        "text": "Complete roof replacements",
+        "icon": {
+          "id": 12,
+          "documentId": "dnqrnzu4ajhq37lp4dcymtgu",
+          "url": "/cms/service-offer-icon-3.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 67,
+        "text": "Colorbond and metal roofing",
+        "icon": {
+          "id": 13,
+          "documentId": "a0jccn50tje8pxyviqhy3ngu",
+          "url": "/cms/service-offer-icon-4.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 68,
+        "text": "Tile and slate roofing",
+        "icon": {
+          "id": 14,
+          "documentId": "a4lt37vkyyfnj0p9v8xpdn3o",
+          "url": "/cms/service-offer-icon-5.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 69,
+        "text": "Gutter installation and replacement",
+        "icon": {
+          "id": 15,
+          "documentId": "z4zj64eg5wu8clgnd06477xk",
+          "url": "/cms/service-offer-icon-6.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 70,
+        "text": "Roof ventilation systems",
+        "icon": {
+          "id": 16,
+          "documentId": "j77uccgxdh63yt0zzp4jvxuv",
+          "url": "/cms/service-offer-icon-7.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 71,
+        "text": "Skylight installation",
+        "icon": {
+          "id": 17,
+          "documentId": "pc7vlxzlpyn4wixoozit8flp",
+          "url": "/cms/service-offer-icon-9.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      },
+      {
+        "id": 72,
+        "text": "Skylight installation",
+        "icon": {
+          "id": 18,
+          "documentId": "p9jb6f92q6inm87bt25w4cvh",
+          "url": "/cms/frame.svg",
+          "alternativeText": null,
+          "width": 40,
+          "height": 40,
+          "mime": "image/svg+xml"
+        }
+      }
+    ]
+  }
+]
