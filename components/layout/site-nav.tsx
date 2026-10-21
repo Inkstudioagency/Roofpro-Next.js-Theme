@@ -117,7 +117,13 @@ export function SiteNav() {
                       <div key={group.title} className="nav-dropdown-column">
                         <div className="nav-dropdown-title">{group.title}</div>
                         {group.links.map((link) => (
-                          <NavLink key={link.href} className="nav-dropdown-link dropdown-link" href={link.href}>
+                          <NavLink
+                            key={link.href}
+                            className="nav-dropdown-link dropdown-link"
+                            href={link.href}
+                            // the demo 404 link would otherwise be prefetched and log a 404
+                            prefetch={link.href === "/not-found" ? false : undefined}
+                          >
                             {link.label}
                           </NavLink>
                         ))}
